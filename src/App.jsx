@@ -1,16 +1,10 @@
+import React from 'react'
 
-import './App.css'
-import Back from './assets/components/Back'
-
-
-function App() {
-
+const App = () => {
   return (
-    <Back name = "Ibrohim_akee" age = { 15 } text = "Sotvoldiyev" subtitlr = "O'zbekiston" Addres = "Andijon, izboskan"/>
-    
-    
-
+    <h1>salom</h1>
   )
 }
 
 export default App
+

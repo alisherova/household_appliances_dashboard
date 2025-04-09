@@ -1,11 +1,11 @@
 import './App.css'
-import Form from './components/Form/Form'
+
 
 function App({ism}){
 
   return (
     <>
-   <Form/>
+    <h1>Hello World</h1>
     </>
   )
 }

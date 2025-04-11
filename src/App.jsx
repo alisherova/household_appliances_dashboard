@@ -1,12 +1,10 @@
+import Layout from "./layout"
 
+function App() { 
 
-
-function App({ism}){
-
-  return (
-    <>
-    <h1>Hello World</h1>
-    </>
+  return ( 
+      <Layout/>
   )
 }
+
 export default App

@@ -1,13 +1,9 @@
+import Layout from "./layout"
 
+function App() { 
 
-
-function App() {
-  
-
-  return (
-    <>
-      <h1>hello world</h1>
-    </>
+  return ( 
+      <Layout/>
   )
 }
 

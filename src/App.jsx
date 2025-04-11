@@ -1,10 +1,10 @@
-import React from 'react'
+import Layout from "./layout"
 
-const App = () => {
-  return (
-    <h1>salom</h1>
+function App() { 
+
+  return ( 
+      <Layout/>
   )
 }
 
 export default App
-

@@ -1,7 +1,9 @@
+import Layout from "./layout"
+
 function App() { 
 
-  return (
-      <h1>Hello world</h1>
+  return ( 
+      <Layout/>
   )
 }
 

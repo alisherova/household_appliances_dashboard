@@ -1,9 +1,10 @@
-import Layout from "./layout"
+import Pricing from "./comanents/Pricing/Pricing"
+import "./App.css"
 
 function App() { 
 
   return ( 
-      <Layout/>
+      <Pricing />
   )
 }
 

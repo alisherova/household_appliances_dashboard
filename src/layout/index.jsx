@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
-import Sidebar from './Sidebar/Sidebar'
-import styles from "./Layout.module.css"
+import Sidebar from './Sidebar/Sidebar' 
 import Main from './Main/Main'
 
 const Layout = () => {
   return (
-    <div className={styles.container}>
+    <div>
         <Navbar/>
         <Sidebar/>
         <Main/>

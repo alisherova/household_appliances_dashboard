@@ -1,9 +1,10 @@
-import Layout from "./layout"
 
-function App() { 
+import React from 'react'
+import ContactUs from './components/ContactUs/ContactUs'
 
-  return ( 
-      <Layout/>
+const App = () => {
+  return (
+    <ContactUs/>
   )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
-import Sidebar from './Sidebar/Sidebar'
+import Sidebar from './Footer/Footer'
 import styles from "./Layout.module.css"
 import Main from './Main/Main'
 

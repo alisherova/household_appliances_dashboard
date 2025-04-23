@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+.miniwrap{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+.mini{
+    width: 22%; 
+    
+}
+.mini img{
+    width: 230px;
+}
+.mini p{
+    width: 270px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200px;
+    margin: 30px 0;
+    line-height: 2;
+}
+.icon {
+    color: #658161  ;
+    display: flex;
+    font-family:sans-serif;
+    font-size: 29px;
+    gap: 20px;
+}
+.wrap{
+    width: 22%; 
+}
+.wrap h1{
+    width: 200px;
+    color: white;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom:  3px solid #658161 ;
+}
+
+.wrap a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+}
+.main{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.main h2{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    border-bottom: 3px solid #658161 ;
+    padding-bottom: 10px;
+} 
+.main p{
+    font-size: 18px ;
+    font-family: sans-serif;
+    color: white;
+    width: 230px;
+    padding-top: 17px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.main a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+.inputwrapper{
+    
+display: flex;
+flex-direction: column;
+gap:12px;
+}
+
+.input {
+    background-color: white;
+    padding: 15px 12px;
+    border: none;
+    font-size: 18px;
+    margin-top: 32px;
+
+}
+.inputwrapper h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight: 400;
+    border-bottom: 3px solid #658161  ;
+}
+.inputwrapper button {
+    padding: 18px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #658161 ;
+    border: none;
+    color: white;
+}

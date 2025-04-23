@@ -1,9 +1,10 @@
-import Layout from "./layout"
+import Footer from "./layout/Footer/Footer"
+import "./App.css"
 
 function App() { 
 
   return ( 
-      <Layout/>
+      <Footer/>
   )
 }
 

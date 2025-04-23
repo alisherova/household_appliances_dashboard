@@ -1,8 +1,11 @@
+import Footer from "./layout/Footer/Footer"
+import "./App.css"
 
+function App() { 
 
-
-
-function App() {
-    
+  return ( 
+      <Footer/>
+  )
 }
+
 export default App
